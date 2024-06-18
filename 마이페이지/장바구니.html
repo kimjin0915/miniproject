@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./장바구니.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <div id="head">
+        <a href="../index.html">
+            <img src="../제목을 입력해주세요_-001 (2).png" alt="">
+        </a>
+    </div>
+    <br><br>
+    <p><strong>MY 장바구니</strong></p>
+    <br>
+    <body>
+        <jsp:include page="menu.jsp" />
+        <div class="jumbotron" style="padding-top: 10px; padding-bottom: 10px">
+        </div>
+        <div class="container">
+            <div class="row" style="background-color: #f1e8ba; border-radius: 1%; height: 50px;">
+                <table width="70%" style="margin: auto;" class="tbl">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <input type="checkbox" checked id="inp" name value title="스타일링 스타스 배송상품 전체 선택">
+                            </th>
+                            <br>
+                            <th scope="col">상품정보</th>
+                            <th scope="col">판매가</th>
+                            <th scope="col">수량</th>
+                            <th scope="col">구매가</th>
+                            <th scope="col">배송정보</th>
+                            <th scope="col">주소</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">
+                                <input type="checkbox" checked id="inp" name value title="스타일링 스타스 배송상품 전체 선택">
+                            </th>
+                            <th id="imgData" scope="col"> </th>
+                            <th id="price" scope="col"></th>
+                            <th id="qty" scope="col"></th>
+                            <th id="sumPrice" scope="col"></th>
+                            <th  scope="col">배송중</th>
+                            <th scope="col">동천동 451번지  1102호</th>
+                        </tr>
+                    </thead>   
+                <div class="right">
+                    <button class="B1">
+                        상품 전체 선택
+                      </button>
+                      <button class="B2">
+                        상품 전체 삭제
+                      </button>
+
+                </div>
+                </div>
+
+                <footer>
+                    회사소개 / 제휴제안/ 이용약관 / 개인정보처리방침 / 고객센터 / [ Styling Stars ]
+                </footer>
+                
+
+                  
+<script src="./장바구니.js"></script>
+</body>
+</html>

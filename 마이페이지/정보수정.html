@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원정보 수정</title>
+    <link rel="stylesheet" href="./정보수정.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="head">
+        <a href="../index.html">
+            <img src="../제목을 입력해주세요_-001 (2).png" alt="">
+        </a>
+    </div>
+<br><br>
+    
+    <!-- 회원정보 수정 양식 -->
+    <form action="/update_user_info" method="POST">
+        <p><strong>회원 정보 수정</strong></p>
+        <label for="username"><strong>아이디</strong></label><br>
+        <input type="username" id="username" placeholder="아이디를 적어주세요."><br>
+        <label for="email"><strong>이메일</strong></label><br>
+        <input type="email" id="email" pattern=".+@gmail\.com"
+        placeholder="example@gmail.com"
+        required><br>
+        <label for="password"><strong>비밀번호</strong></label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="passwordchk"><strong>비밀번호 확인</strong></label><br>
+        <input type="password" id="passwordchk" name="passwordchk"><br>
+        <!-- <label for="nick"><strong>닉네임</strong></label><br>
+        <input type="nick" id="nick" name="nick"><br> -->
+        <label for="postnumber"><strong>우편번호</strong></label><br>
+        <input type="postnumber" id="postnumber" name="postnumber"><br><br>
+        <input type="reset" id="reset1" value="우편번호 검색" class="btn-1"><br>
+        <button type="save" value="저장" class="btn-1">저장</button>
+    </form>
+    <footer>
+        회사소개 / 제휴제안/ 이용약관 / 개인정보처리방침 / 고객센터 / [ Styling Stars ]
+    </footer>
+    
+</body>
+</html>

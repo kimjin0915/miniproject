@@ -1,0 +1,96 @@
+.backgroundImg{
+    background-image: url("./blurdog.png");
+    background-size: cover;
+    margin-top: 10%;
+    /* backdrop-filter: blur(5px); */
+    
+    /* margin: 10%; */
+}
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 70px;
+    /* height: px; */
+    align-items: center;
+}
+
+.login-container{
+    width: 300px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+    text-align: center;
+    /* background-color: #FFFFF0; */
+}
+
+header{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form{
+    text-align: center;
+}
+
+button {
+    padding: 8px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 190px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 15px;
+    #options1{
+        text-decoration-line: none;
+    }
+    #options2{
+        text-decoration-line: none;
+    }
+}
+
+#options1{
+    color: white;
+    -webkit-text-stroke: 0.1px black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#options2{
+    color: white;
+    -webkit-text-stroke: 0.1px black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+

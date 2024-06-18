@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- <html lang="ko"> -->
+<head>
+    <meta charset="UTF-8">
+    <title>로그인</title>
+    <link rel="stylesheet" href="로그인.css">
+</head>
+<body class="backgroundImg">
+    <div class="login-container">
+        <header>
+            <h1>Login</h1>
+        </header>
+        <form id="loginForm" action="../../index.html" name="loginForm">
+            <input type="text" id="email" name="email" placeholder="이메일/아이디" required>
+            <input type="password" id="password" name="password" placeholder="비밀번호" required>
+            <input type="password" id="pwRight" name="pwRight" placeholder="비밀번호확인" required>
+            <button id="loginBtn" onclick="loginBtn">로그인</button>
+        </form>
+       
+        <div class="options">
+            <a href="#" id="options1">비밀번호 찾기</a>
+            <a href="../회원가입/join_member.html" id="options2" >회원가입</a>
+        </div>
+    </div>
+    <div id="mainPage">
+        <a href="../../index.html">
+            <input type="button" value="메인으로 돌아가기"></div>
+        </a>
+        
+    <footer>
+        <div id="footer">
+            <div class="bottom num1">
+                <p>이용약관</p>
+                <p>개인정보처리방침</p>
+                <p>위치기반서비스 약관</p>
+                <p>Instagram</p>
+                <p>Youtube</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- script -->
+    <scrip src="로그인.js"></scrip>
+</body>
+</html>

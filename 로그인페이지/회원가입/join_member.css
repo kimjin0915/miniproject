@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 70px;
+    align-items: center;
+}
+
+.joinContainer{
+    width: 300px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    vertical-align:middle;
+    
+}
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+h1{
+    font-size: 30px;
+}
+
+form{
+    text-align: center;
+}
+
+input {
+    margin-bottom: 18px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.backgroundImg{
+    background-image: url("./puppystop.png");
+    background-size: cover;
+    margin-top: 10%;
+    /* backdrop-filter: blur(5px); */
+    
+    /* margin: 10%; */
+}
